@@ -611,7 +611,7 @@
             <p>Con todo mi amor,</p>
             <p><strong id="my-name">Kristopher , tu negro!</strong></p>
             <button class="love-button" onclick="showLove()">Te Amo</button>
-        </div>
+        </div>  
     </section>
 
     <footer>
@@ -710,7 +710,7 @@
         // Personalizar con nombres
         function personalizePage() {
             const urlParams = new URLSearchParams(window.location.search);
-            const myName = urlParams.get('myname') || '[Tu Nombre]';
+            const myName = urlParams.get('myname') || '[Kristopher, Tu Negro!]';
             const partnerName = urlParams.get('partnername') || 'Mi Amor';
             
             document.getElementById('my-name').textContent = myName;
